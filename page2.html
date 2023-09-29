@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina 02</title>
+
+    <script>
+        function escurecerPagina() {
+            var overlay = document.getElementById('overlay');
+            overlay.style.display = 'block'; // Mostrar a sobreposição
+        }
+
+    </script>
+    <script>
+        function clarearPagina() {
+            var overlay = document.getElementById('overlay');
+            overlay.style.display = 'none'; // Ocultar a sobreposição
+        }
+    </script>
+
+</head>
+
+<body id="topo">
+    <h1>Links de paginas externas</h1>
+
+    <h3>Links</h3>
+    <ul>
+        <li><a href="page1.html">PAGINA 01</a></li>
+        <li><a href="page3.html">PAGINA 03</a></li>
+        <li><a href="page3.html#rede-socias">TOPICO NA PAGINA 2</a></li>
+
+    </ul>
+
+
+    <div class="overlay" id="overlay">
+        <!-- Botão para clarear a página -->
+        <button onclick="clarearPagina()">Clarear Página</button>
+    </div>
+
+    <!-- Botão para escurecer a página -->
+    <button onclick="escurecerPagina()">Escurecer Página</button>
+
+    <div>
+        <h5>Link para whatsapp_</h5>
+        <a href="https://www.shareicon.net/data/512x512/2015/08/28/92444_whatsapp_512x512.png">
+            <img src="whatsapp_512x512.png" alt="whatsapp_">
+        </a>
+    </div>
+    <div>
+        <h5>Link para Instagram_</h5>
+        <a href="https://cdn-icons-png.flaticon.com/512/174/174855.png">
+            <img src="instagram.png" alt="Instagram_">
+        </a>
+    </div>
+    <div>
+        <h5>Link para twitter_</h5>
+        <a href="https://cdn-icons-png.flaticon.com/512/124/124021.png">
+            <img src="twiter.png" alt="twitter_">
+        </a>
+    </div>
+
+
+    <footer id="bottom">
+        <span>
+            <a href="#top">Volte ao Inicio</a>
+        </span> <br>
+        &copy;todos os direitos reservados
+    </footer>
+
+</body>
+
+</html>

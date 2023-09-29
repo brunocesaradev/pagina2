@@ -1,0 +1,46 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: none;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/*  link não vistado */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+/* link visitado */
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/* passando mouse */
+a:hover {
+    color: blue;
+    text-decoration: none;
+    background-color: #333;
+    /* Cor de fundo invertida */
+
+}
+
+/*  link selecionado */
+a:active {
+    color: black;
+    text-decoration: none;
+    background-color: blue;
+    /* Cor de fundo invertida */
+}
